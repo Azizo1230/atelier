@@ -14,7 +14,7 @@
           {{ residence.status }}
         </span>
       </p>
-
+      <button class="btn-btn" [routerLink]="['/details',residence.id]">Voir Details</button>&nbsp; 
       <button (click)="showLocation(residence)">Show Location</button>
 &nbsp;
       <button (click)="toggleFavorite(residence)">

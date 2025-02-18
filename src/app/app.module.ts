@@ -9,6 +9,8 @@ import { FooterComponent } from './footer/footer.component';
 import { XyzComponent } from './xyz/xyz.component';
 import { FormsModule } from '@angular/forms';
 import { ResidencesComponent } from './residences/residences.component';
+import { ResidenceDetailsComponent } from './residences/residence-details/residence-details.component';
+import { NotFoundComponent } from './not-found/not-found.component';
 
 
 @NgModule({
@@ -18,7 +20,9 @@ import { ResidencesComponent } from './residences/residences.component';
     HomeComponent,
     FooterComponent,
     XyzComponent,
-    ResidencesComponent
+    ResidencesComponent,
+    ResidenceDetailsComponent,
+    NotFoundComponent
   ],
   imports: [
     BrowserModule,

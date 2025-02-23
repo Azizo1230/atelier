@@ -13,6 +13,7 @@ import { ResidenceDetailsComponent } from './residences/residence-details/reside
 import { NotFoundComponent } from './not-found/not-found.component';
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +23,7 @@ import { NotFoundComponent } from './not-found/not-found.component';
     XyzComponent,
     ResidencesComponent,
     ResidenceDetailsComponent,
-    NotFoundComponent
+    NotFoundComponent,
   ],
   imports: [
     BrowserModule,

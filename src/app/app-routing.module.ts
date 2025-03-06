@@ -6,6 +6,7 @@ import { NotFoundComponent } from './not-found/not-found.component';
 import { ResidenceDetailsComponent } from './residences/residence-details/residence-details.component';
 import { AddAppartmentComponent } from './Appartment/add-appartment/add-appartment.component';
 
+
 const routes: Routes = [
   {path:'',redirectTo:'/home',pathMatch:'full'},
   {path:'residence',component:ResidencesComponent},

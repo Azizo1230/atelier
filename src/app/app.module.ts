@@ -13,6 +13,8 @@ import { ResidencesComponent } from './residences/residences.component';
 import { ResidenceDetailsComponent } from './residences/residence-details/residence-details.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { AddAppartmentComponent } from './Appartment/add-appartment/add-appartment.component';
+import { AddResidenceComponent } from './residences/add-residence/add-residence.component';
+
 
 @NgModule({
   declarations: [
@@ -25,7 +27,7 @@ import { AddAppartmentComponent } from './Appartment/add-appartment/add-appartme
     ResidenceDetailsComponent,
     NotFoundComponent,
     AddAppartmentComponent,
-
+    AddResidenceComponent
   ],
   imports: [
     BrowserModule,
